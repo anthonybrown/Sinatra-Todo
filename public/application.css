@@ -12,6 +12,11 @@ body {
 }
 
 .muted {
+  color: #444;
+  font-size:1em;
+  text-decoration: line-through;
+}
+
+h3 {
   color: #999999;
-  font-size:1.8em;
 }
