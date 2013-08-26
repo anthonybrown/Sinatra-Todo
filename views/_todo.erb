@@ -1,0 +1,10 @@
+<tr>
+  <td>
+    <%= link_to todo.title, edit_todo_path(todo), class: (todo.completed? ? "checked muted" : "") %>
+  </td>
+  <td>
+    <span class='pull-right'>
+      <%= link_to "DELETE", todo_path(todo), class: "btn btn-mini btn-danger", method: "DELETE" %>
+    </span>
+  </td>
+</tr>

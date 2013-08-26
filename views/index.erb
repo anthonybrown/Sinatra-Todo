@@ -1,0 +1,13 @@
+<table class='table .table-striped'>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @todos.each do |todo| %>
+      <%= erb :_todo, locals: {todo: todo} %>
+    <% end %>
+  </tbody>
+</table>
